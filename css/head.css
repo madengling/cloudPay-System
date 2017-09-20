@@ -1,0 +1,58 @@
+#head {
+	margin: 0;
+	height: 56px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+#logo {
+	height: 56px;
+	background: url(../img/logo.png) no-repeat 6px 5px;
+	background-size: contain;
+}
+
+#head>div {
+	height: 56px;
+}
+
+#head button {
+	float: right;
+	padding: 0 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+	#head {
+		margin: 0;
+		height: 76px;
+		width: 100%;
+		vertical-align: middle;
+		padding: 10px 0px;
+	}
+
+	#logo {
+		height: 56px;
+		background: url(../img/logo.png) no-repeat 20px 3px;
+		background-size: contain;
+	}
+
+	#head>div {
+		height: 56px;
+	}
+
+	#head button {
+		float: right;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-top: 15px;
+		padding: 0 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+	}
+}
